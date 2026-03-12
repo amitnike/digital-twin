@@ -1,3 +1,5 @@
+import DigitalTwinChat from "../components/DigitalTwinChat";
+
 const careerTimeline = [
   {
     role: "Principal Engineer",
@@ -268,6 +270,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Digital Twin chat */}
+        <DigitalTwinChat />
 
         {/* Footer / contact */}
         <footer className="mt-4 flex flex-col gap-3 border-t border-slate-800/70 pt-4 text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between">
